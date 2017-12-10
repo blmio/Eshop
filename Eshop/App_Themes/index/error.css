@@ -1,0 +1,7 @@
+﻿/* notice */
+em { font-style: normal; }
+.notice-search { margin: 20px 0;border: 1px solid #f2f2f2;padding: 20px;}
+.notice-search .ns-wrap { padding: 10px 50px; }
+.notice-search .ns-icon { float: left; display: block; width: 32px; height: 32px; background: url(../../image/search.notice.png) no-repeat 0 2px; }
+.notice-search .ns-content { margin-left: 32px; line-height: 32px; padding-left: 10px; font-size: 14px; font-weight: 700; color: #f60; }
+.notice-search .ns-content span em { color: #333; }

@@ -1,0 +1,50 @@
+/* CSS Document */
+body { font: 12px/150% Arial, Verdana, "\5b8b\4f53"; color: #666; background: #fff; }
+#logo { position: relative; width: 300px; margin: 10px 0 0; height: 60px; }
+#logo b { display: block; width: 110px; height: 40px; position: absolute; right: 18px; top: 8px; background: url(../../image/regist-word.png) no-repeat; }
+.reg-wrap { position: relative; height: 475px; margin: 10px 0 20px; }
+.reg-wrap .reg-banner { position: absolute; left: 0; top: 0; width: 100%; height: 475px; background: #e93854; }
+.reg-wrap .i-inner { position: relative; z-index: 3; height: 475px; }
+.reg-form { position: relative; z-index: 4; width: 306px; background: #fff; padding: 20px; overflow: visible; }
+.reg-wrap .reg-form { float: right; top: 40px; }
+.reg-form .reg-box .mt { display: inline-block; display: block; width: 306px; overflow: visible; height: 27px; }
+.reg-form .reg-box .mt h1 { position: relative; height: 27px; line-height: 27px; top: -5px; float: left; color: #666; font-family: '\5fae\8f6f\96c5\9ed1'; font-size: 20px; }
+.reg-form .reg-box .mt .extra-r { float: right; }
+.reg-form .msg-wrap { min-height: 31px; height: auto!important; height: 31px; margin: 2px 0 5px; }
+.reg-form .msg-warn { position: relative; background: #fff6d2; color: #666; border: 1px solid #ffe57d; padding: 3px 10px 3px 40px; line-height: 18px; height: 18px; }
+.reg-form .msg-warn b { position: absolute; top: 50%; left: 10px; display: block; margin-top: -8px; width: 16px; height: 17px; overflow: hidden; background: url(../../image/pwd-icons-new.png) -104px -22px no-repeat; }
+.form .item { position: relative; margin-bottom: 20px; z-index: 1; }
+.reg-form .msg-error { position: relative; background: #ffebeb; color: #e4393c; border: 1px solid #e4393c; padding: 3px 10px 3px 40px; line-height: 18px; min-height: 18px; _height: 18px; }
+.reg-form .msg-error b { position: absolute; top: 50%; left: 10px; display: block; margin-top: -8px; width: 16px; height: 16px; overflow: hidden; background: url(../../image/pwd-icons-new.png) -104px -49px no-repeat; }
+.form .item { position: relative; margin-bottom: 20px; z-index: 1; }
+.form .item-fore1, .form .item-fore2, .form .item-fore3 { border: 1px solid #bdbdbd; height: 38px; width: 304px; }
+.form .item-fore1 { z-index: 6; }
+.form .item-error { border: 1px solid #e4393c; }
+.form .item-focus { border: 1px solid #3aa2e4; }
+.form label { float: none; }
+.form .item .reg-label { position: absolute; z-index: 3; top: 0; left: 0; width: 38px; height: 38px; border-right: 1px solid #bdbdbd; background: url(../../image/pwd-icons-new.png) no-repeat; }
+.form .item .name-label { background-position: 0 0; }
+.form .item .pwd-label { background-position: -48px 0; }
+.form .item-error .name-label { background-position: 0 -96px; border-color: #e4393c; }
+.form .item-focus .name-label { background-position: 0 -48px; border-color: #3aa2e4; }
+.form .item-error .pwd-label { background-position: -48px -96px; border-color: #e4393c; }
+.form .item-focus .pwd-label { background-position: -48px -48px; border-color: #3aa2e4; }
+.form .itxt { line-height: 18px; height: 18px; border: 0; padding: 10px 0 10px 50px; width: 254px; float: none; overflow: hidden; font-size: 14px; font-family: '\5b8b\4f53'; }
+.form .item-fore2,.form .item-fore3 { height: 38px; }
+.form input[type=password] { font-family: Tahoma, Helvetica, Arial; }
+.form .item-fore5 { z-index: 5; margin-bottom: 15px; }
+.form #o-authcode.item { border: 0; }
+.form #o-authcode.item .itxt02 { border: 1px solid #bdbdbd; font-size: 14px; padding: 7px 5px; vertical-align: middle; }
+.form #o-authcode.item-error .itxt02 { border: 1px solid #e4393c; }
+.form #o-authcode.item-focus .itxt02 { border: 1px solid #3aa2e4; }
+.form .itxt02 { padding: 10px 5px; width: 78px; text-align: center; }
+.form .verify-code { cursor: pointer; width: 100px; height: 33px; vertical-align: middle; }
+.reg-form .reg-box .safe { position: relative; color: #666; }
+.reg-form .reg-box .safe span { margin-right: 15px; }
+.reg-form .reg-box .safe .blue { color: #005AA0; }
+.form .checkbox { float: none; vertical-align: middle; _vertical-align: -1px; margin: 0 3px 0 0; padding: 0; }
+.reg-form .reg-box .reg-btn { border: 1px solid #cb2a2d; margin: 0 auto; height: 33px; position: relative; }
+.reg-form .reg-box .reg-btn .btn-img { border: 1px solid #e85356; display: block; width: 302px; background: #e4393c; height: 31px; line-height: 31px; color: #fff; font-size: 20px; font-family: '\5fae\8f6f\96c5\9ed1'; }
+.reg-form .reg-box .reg-btn .btn-img {text-decoration:none; }
+.reg-wrap .reg-banner { position: absolute; left: 0; top: 0; width: 100%; height: 475px; background: #e93854; }
+.reg-wrap .i-inner { position: relative; z-index: 3; height: 475px; }

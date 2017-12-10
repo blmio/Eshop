@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="avatar.aspx.cs" Inherits="Apply_avatar" %>

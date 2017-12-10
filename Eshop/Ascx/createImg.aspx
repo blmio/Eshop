@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="createImg.aspx.cs" Inherits="Ascx_createImg" %>

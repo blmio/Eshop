@@ -1,0 +1,16 @@
+﻿/* middle content */
+body { font: 12px/150% Arial, Verdana, "\5b8b\4f53"; color: #666; background: #e6e6e6; }
+#content { background: rgb(255, 255, 255); margin: 300px auto auto; border: 1px solid rgb(231, 231, 231); width: 360px; height: 200px; padding: 20px; }
+.msg-wrap { min-height: 31px; height: auto!important; margin: 2px 0 5px; }
+.msg-error { position: relative;  color: #E4393C; padding: 3px 10px 3px 3px; line-height: 18px; min-height: 18px; _height: 18px; }
+#adform .item { position: relative; margin-bottom: 20px; }
+#adform .item .u_logo { background: url(username.png) no-repeat 0 0; }
+#adform .item .p_logo { background: url(password.png) no-repeat 0 0; }
+#adform .item .u_logo, #adform .item .p_logo { padding: 10px 10px; position: absolute; left: 10px; top: 13px; }
+#adform .item .itxt { border: 1px solid #d3d3d3; padding: 10px 10px; width: 313px; border-radius: 4px; padding-left: 35px; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; line-height: 18px; height: 18px; float: none; overflow: hidden; font-size: 12px; font-family: '\5b8b\4f53'; }
+#adform .item .itxt:focus { border-color: #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6); box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6) }
+#adform .item .login-wrap { position: relative; overflow: hidden; }
+#adform .item .safe { padding-top: 5px; }
+#adform .item .safe .checkbox { float: none; vertical-align: middle; _vertical-align: -1px; margin: 0 3px 0 0; padding: 0; background: #fff;}
+#adform .item .safe span { font-size: 12px; float: none; }
+#loginsumbit { padding: 5px 10px; text-decoration: none; border-radius: 3px; background: #E4393C; color:#fff; font-weight:bold; }

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="xmlwrite.aspx.cs" Inherits="Apply_xmlwrite" %>

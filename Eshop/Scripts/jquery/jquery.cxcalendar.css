@@ -1,0 +1,44 @@
+﻿/**
+ * jQuery cxCalendar Style
+ * ------------------------------ */
+.cxcalendar{display:none;position:absolute;width:200px;color:#333;font:12px Arial;border:1px solid #ccc;background:#fff;box-shadow:2px 2px 5px rgba(0,0,0,0.3);color:#434a54;z-index:10000;}
+.cxcalendar .date_hd{position:relative;height:20px;padding:8px 6px 2px 6px;background:#fff;}
+
+.cxcalendar .date_pre,
+.cxcalendar .date_next{position:absolute;top:9px;width:9px;height:10px;padding:3px 4px;border:1px solid #fff;border-radius:2px;color:#333;font:0/0 Arial;text-decoration:none;outline:0;
+*top:7px;
+*height:14px;
+*font:bold 14px/14px Arial;
+}
+.cxcalendar .date_pre{left:8px;}
+.cxcalendar .date_next{right:8px;}
+.cxcalendar .date_pre:before,
+.cxcalendar .date_next:before{content:'';display:block;font:0/0 Arial;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;}
+.cxcalendar .date_pre:before{border-right:9px solid #333;}
+.cxcalendar .date_next:before{border-left:9px solid #333;}
+
+.cxcalendar .date_txt{width:120px;margin:0 auto;border:1px solid #fff;border-radius:2px;font:bold 14px/18px Arial;text-align:center;cursor:pointer;}
+.cxcalendar .date_txt .y{padding:0 6px 0 0;}
+.cxcalendar .date_txt .m{padding:0 6px;}
+
+.cxcalendar .date_pre:hover,
+.cxcalendar .date_next:hover,
+.cxcalendar .date_txt:hover{border:1px solid #aab2bd;background:#e6e9ed;}
+
+.cxcalendar .date_set{display:none;width:120px;margin:0 auto;text-align:center;}
+.cxcalendar .year_set,
+.cxcalendar .month_set{box-sizing:border-box;height:20px;margin:0;padding:0;border:1px solid #aab2bd;border-radius:2px;background:#fff;font:12px/20px Arial;}
+
+.cxcalendar table{position:relative;border-collapse:collapse;table-layout:fixed;empty-cells:show;text-align:center;z-index:1;}
+.cxcalendar thead th,
+.cxcalendar tbody td{width:24px;height:20px;padding:0;border:4px solid #fff;font:12px/20px Arial;text-align:center;}
+.cxcalendar thead th{color:#aab2bd;}
+.cxcalendar tbody td{position:static;}
+.cxcalendar tbody .sat{color:#4a89dc}
+.cxcalendar tbody .sun{color:#da4453;}
+.cxcalendar tbody .now{background:#ccd1d9;}
+.cxcalendar tbody .num:hover{background:#e6e9ed;text-decoration:none;cursor:pointer;}
+.cxcalendar table .selected,
+.cxcalendar table .selected:hover{background:#8cc152;color:#fff;}
+
+.cxcalendar_lock{display:none;position:absolute;top:0;left:0;background:#fff;z-index:9999;filter:alpha(opacity=0);opacity:0;}
